@@ -4,7 +4,6 @@ title: 'ThePetNest! Pet Grooming & Vet'
 cover: './demo.png'
 playstore: 'https://play.google.com/store/apps/details?id=com.thepetnest.customer'
 appstore: 'https://apps.apple.com/in/app/thepetnest-pet-grooming-vet/id1632865181'
-video: 'https://sitesurface.com/wp-content/uploads/Petnest.mp4'
 tech:
   - Flutter
   - Dart

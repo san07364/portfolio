@@ -4,7 +4,6 @@ title: 'ThePetNest - Partner'
 cover: './demo.png'
 playstore: 'https://play.google.com/store/apps/details?id=com.thepetnest.partner'
 appstore: 'https://apps.apple.com/in/app/thepetnest-partner/id1626054499'
-video: 'https://sitesurface.com/wp-content/uploads/petnest-partner-app.mp4'
 tech:
   - Flutter
   - Dart

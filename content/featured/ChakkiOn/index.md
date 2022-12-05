@@ -4,7 +4,6 @@ title: 'ChakkiON'
 cover: './demo.png'
 playstore: 'https://play.google.com/store/apps/details?id=com.chakkion.customer'
 appstore: 'https://apps.apple.com/us/app/chakkion/id6443731459'
-video: "https://sitesurface.com/wp-content/uploads/Chakki-On-customer.mp4"
 tech:
   - Flutter
   - Dart

@@ -15,10 +15,7 @@ const StyledProjectsGrid = styled.ul`
     position: relative;
     z-index: 1;
   }
-  
 `;
-
-
 
 const StyledProject = styled.li`
   position: relative;
@@ -301,8 +298,6 @@ const StyledProject = styled.li`
         filter: grayscale(100%) contrast(1) brightness(50%);
       }
     }
-
-    
   }
 `;
 
@@ -326,7 +321,6 @@ const Featured = () => {
               playstore
               appstore
               external
-              video
             }
             html
           }
@@ -364,61 +358,60 @@ const Featured = () => {
 
             return (
               <Fragment key={i}>
-              <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
-                <div className="project-content">
-                  <div>
-                    <p className="project-overline">Featured Project</p>
+                <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
+                  <div className="project-content">
+                    <div>
+                      <p className="project-overline">Featured Project</p>
 
-                    <h3 className="project-title">
-                      <a href={playstore}>{title}</a>
-                    </h3>
+                      <h3 className="project-title">
+                        <a href={playstore}>{title}</a>
+                      </h3>
 
-                    <div
-                      className="project-description"
-                      dangerouslySetInnerHTML={{ __html: html }}
-                    />
+                      <div
+                        className="project-description"
+                        dangerouslySetInnerHTML={{ __html: html }}
+                      />
 
-                    {tech.length && (
-                      <ul className="project-tech-list">
-                        {tech.map((tech, i) => (
-                          <li key={i}>{tech}</li>
-                        ))}
-                      </ul>
-                    )}
+                      {tech.length && (
+                        <ul className="project-tech-list">
+                          {tech.map((tech, i) => (
+                            <li key={i}>{tech}</li>
+                          ))}
+                        </ul>
+                      )}
 
-                    <div className="project-links">
-                      {cta && (
-                        <a href={cta} aria-label="Course Link" className="cta">
-                          Learn More
-                        </a>
-                      )}
-                      {playstore && (
-                        <a href={playstore} aria-label="External Link" className="external">
-                          <Icon name="PlayStore" />
-                        </a>
-                      )}
-                      {external && (
-                        <a href={external} aria-label="External Link" className="external">
-                          <Icon name="External" />
-                        </a>
-                      )}
-                      {appstore && (
-                        <a href={appstore} aria-label="GitHub Link" className="external">
-                          <Icon name="AppStore" />
-                        </a>
-                      )}
+                      <div className="project-links">
+                        {cta && (
+                          <a href={cta} aria-label="Course Link" className="cta">
+                            Learn More
+                          </a>
+                        )}
+                        {playstore && (
+                          <a href={playstore} aria-label="External Link" className="external">
+                            <Icon name="PlayStore" />
+                          </a>
+                        )}
+                        {external && (
+                          <a href={external} aria-label="External Link" className="external">
+                            <Icon name="External" />
+                          </a>
+                        )}
+                        {appstore && (
+                          <a href={appstore} aria-label="GitHub Link" className="external">
+                            <Icon name="AppStore" />
+                          </a>
+                        )}
+                      </div>
                     </div>
                   </div>
-                </div>
 
-                <div className="project-image">
-                  <a href={playstore}>
-                    <GatsbyImage image={image} alt={title} className="img" />
-                  </a>
-                </div>
-               
-              </StyledProject>
-              <div className="player-video">
+                  <div className="project-image">
+                    <a href={playstore}>
+                      <GatsbyImage image={image} alt={title} className="img" />
+                    </a>
+                  </div>
+                </StyledProject>
+                {/* <div className="player-video">
               {video && <ReactPlayer
           
               url={video}
@@ -427,10 +420,8 @@ const Featured = () => {
               muted={true}
           
             /> }
-              </div>
-             
+              </div> */}
               </Fragment>
-              
             );
           })}
       </StyledProjectsGrid>

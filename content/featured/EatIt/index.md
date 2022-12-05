@@ -4,7 +4,6 @@ title: 'Eat it'
 cover: './demo.png'
 playstore: 'https://play.google.com/store/apps/details?id=com.eatit.mobile'
 appstore: 'https://apps.apple.com/in/app/eatit-share-food/id1632001505'
-video: "https://sitesurface.com/wp-content/uploads/eat-it.mp4"
 tech:
   - Flutter
   - Dart
