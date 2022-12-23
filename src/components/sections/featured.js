@@ -50,6 +50,7 @@ const StyledProject = styled.li`
       }
       @media (max-width: 768px) {
         grid-column: 1 / -1;
+        
         padding: 40px 40px 30px;
         text-align: left;
       }
@@ -96,7 +97,6 @@ const StyledProject = styled.li`
     position: relative;
     grid-column: 1 / 7;
     grid-row: 1 / -1;
-
     @media (max-width: 1080px) {
       grid-column: 1 / 9;
     }
@@ -107,6 +107,7 @@ const StyledProject = styled.li`
       justify-content: center;
       height: 100%;
       grid-column: 1 / -1;
+      grid-row: none;
       padding: 40px 40px 30px;
       z-index: 5;
     }
@@ -251,7 +252,6 @@ const StyledProject = styled.li`
     @media (max-width: 768px) {
       grid-column: 1 / -1;
       height: 100%;
-      opacity: 0.25;
     }
 
     a {
@@ -295,7 +295,6 @@ const StyledProject = styled.li`
         object-fit: cover;
         width: auto;
         height: 100%;
-        filter: grayscale(100%) contrast(1) brightness(50%);
       }
     }
   }
