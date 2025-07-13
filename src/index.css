@@ -1,0 +1,244 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import Fira Code fonts */
+@font-face {
+  font-family: "Fira Code Light";
+  src: url("./assets/fonts/fira-code/FiraCode-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Fira Code Regular";
+  src: url("./assets/fonts/fira-code/FiraCode-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Fira Code Retina";
+  src: url("./assets/fonts/fira-code/FiraCode-Retina.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Fira Code Medium";
+  src: url("./assets/fonts/fira-code/FiraCode-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Fira Code SemiBold";
+  src: url("./assets/fonts/fira-code/FiraCode-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Fira Code Bold";
+  src: url("./assets/fonts/fira-code/FiraCode-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Fira Code Variable";
+  src: url("./assets/fonts/fira-code/FiraCode-Variable.ttf") format("truetype");
+}
+
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fira Code Regular", monospace;
+  background-color: #010c15;
+  color: #e5e9f0;
+  overflow-x: hidden;
+}
+
+.page {
+  background-color: #010c15;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+
+@media (min-width: 1024px) {
+  .page {
+    padding-left: 275px;
+  }
+}
+
+/* Common utility classes */
+.border-right {
+  border-right: 1px solid #1e2d3d;
+}
+
+.border-left {
+  border-left: 1px solid #1e2d3d;
+}
+
+.border-top {
+  border-top: 1px solid #1e2d3d;
+}
+
+.border-bot {
+  border-bottom: 1px solid #1e2d3d;
+}
+
+.section-arrow {
+  width: 9px;
+  height: 9px;
+  transition: transform 0.3s ease;
+}
+
+.section-arrow.rotate-90 {
+  transform: rotate(90deg);
+}
+
+/* Mobile menu styles */
+#mobile-page-title {
+  display: flex;
+  padding: 20px 25px;
+  border-bottom: 1px solid #1e2d3d;
+}
+
+#mobile-page-title h2 {
+  font-family: "Fira Code Regular", monospace;
+  color: white;
+  font-size: 16px;
+}
+
+@media (min-width: 1024px) {
+  #mobile-page-title {
+    display: none;
+  }
+}
+
+/* Scroll bar styles */
+#scroll-bar {
+  width: 20px;
+  border-left: 1px solid #1e2d3d;
+}
+
+#scroll {
+  width: 14px;
+  height: 7px;
+  background-color: #607b96;
+  border-radius: 8px;
+}
+
+/* Tab height utility */
+.tab-height {
+  min-height: 35px;
+  max-height: 35px;
+}
+
+/* Animations */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fade-in 0.5s ease-out;
+}
+
+/* Typewriter animation */
+.typewriter {
+  border-right: 3px solid rgba(255, 255, 255, 0.75);
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgba(255, 255, 255, 0.75);
+  }
+}
+
+/* Gradient backgrounds */
+.css-blurry-gradient-blue {
+  position: fixed;
+  bottom: 25%;
+  right: 5%;
+  width: 300px;
+  height: 300px;
+  border-radius: 0% 0% 50% 50%;
+  transform: rotate(10deg);
+  filter: blur(70px);
+  background: radial-gradient(
+    circle at 50% 50%,
+    rgba(77, 91, 206, 1),
+    rgba(76, 0, 255, 0)
+  );
+  opacity: 0.5;
+  z-index: 10;
+}
+
+.css-blurry-gradient-green {
+  position: absolute;
+  top: 20%;
+  right: 30%;
+  width: 300px;
+  height: 300px;
+  border-radius: 0% 50% 0% 50%;
+  filter: blur(70px);
+  background: radial-gradient(
+    circle at 50% 50%,
+    rgba(67, 217, 173, 1),
+    rgba(76, 0, 255, 0)
+  );
+  opacity: 0.5;
+  z-index: 10;
+}
+
+/* AOS animations */
+[data-aos] {
+  pointer-events: none;
+}
+
+[data-aos].aos-animate {
+  pointer-events: auto;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e2d3d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #607b96;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #758a9b;
+}
+
+/* Header styles */
+#navbar > nav {
+  height: 45px;
+  font-size: 13px;
+}
