@@ -59,4 +59,3 @@ This project is originally inspired by [Developer Portfolio v2](https://github.c
 This project is licensed under the **MIT License**.
 
 ---
-Feel free to fork, modify, and use this portfolio for your own personal brand! ⭐ If you like it, consider giving it a **star** on GitHub!
