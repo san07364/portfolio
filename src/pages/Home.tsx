@@ -71,10 +71,8 @@ const Home: React.FC = () => {
 
         <div id="info" className="flex flex-col py-10">
           <span className="text-sm leading-none text-hello-gray font-fira_retina pb-4">
-            I'm a software developer with a knack for turning complex challenges
-            into elegant solutions. I thrive on diving into new technologies and
-            pushing my skills to their limits, always eager to craft innovative
-            projects that leave a mark.
+            Senior Software Developer | 6+ Years of Experience 
+            Leveraging an AI-integrated workflow to deliver scalable solutions with 10x efficiency. I am a dedicated problem-solver who excels at deconstructing complex technical challenges and translating them into elegant, high-impact code. By fusing deep architectural logic with cutting-edge AI tools, I push the limits of modern engineering to build software that lasts.
           </span>
           <span
             className={`text-sm leading-none text-hello-gray font-fira_retina pb-4 whitespace-pre-line ${
