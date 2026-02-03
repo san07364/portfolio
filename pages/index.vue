@@ -18,7 +18,10 @@
 
 			<div id="info">
 				<span class="action">
-					I'm a software developer with a knack for turning complex challenges into elegant solutions. I thrive on diving into new technologies and pushing my skills to their limits, always eager to craft innovative projects that leave a mark.
+					Senior Software Developer | 6+ Years of Experience
+				</span>
+        <span class="action">
+					Leveraging an AI-integrated workflow to deliver scalable solutions with 10x efficiency. I am a dedicated problem-solver who excels at deconstructing complex technical challenges and translating them into elegant, high-impact code. By fusing deep architectural logic with cutting-edge AI tools, I push the limits of modern engineering to build software that lasts.
 				</span>
 				<span class="whitespace-pre-line">
 Frameworks : NestJS, NextJS, ExpressJS, ReactJS, Native Android, Flutter, Wordpress
