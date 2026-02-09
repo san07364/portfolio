@@ -42,8 +42,8 @@ Frameworks : NestJS, NextJS, ExpressJS, ReactJS, Native Android, Flutter, Wordpr
 					<span class="operator">
 						=
 					</span>
-					<a class="string" :href="'https://drive.google.com/file/d/1XFttoHzkW5yNSOqCW8Zsofyj0SubUdbk/view'">
-						"https://drive.google.com/file/d/1XFttoHzkW5yNSOqCW8Zsofyj0SubUdbk/view"
+					<a class="string" :href="'https://drive.google.com/file/d/1Le3uMyDIZxJNdgFTnp9HahS21GA7LIWm/view?usp=sharing'">
+						"https://drive.google.com/file/d/1Le3uMyDIZxJNdgFTnp9HahS21GA7LIWm/view?usp=sharing"
 					</a>
 				</p>
 			</div>

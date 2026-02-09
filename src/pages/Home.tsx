@@ -95,11 +95,11 @@ const Home: React.FC = () => {
             <span className="text-white"> = </span>
             <a
               className="text-codeline-link underline underline-offset-4"
-              href="https://drive.google.com/file/d/1XFttoHzkW5yNSOqCW8Zsofyj0SubUdbk/view"
+              href="https://drive.google.com/file/d/1Le3uMyDIZxJNdgFTnp9HahS21GA7LIWm/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
-              "https://drive.google.com/file/d/1XFttoHzkW5yNSOqCW8Zsofyj0SubUdbk/view"
+              "https://drive.google.com/file/d/1Le3uMyDIZxJNdgFTnp9HahS21GA7LIWm/view?usp=sharing"
             </a>
           </p>
         </div>
