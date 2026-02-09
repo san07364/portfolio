@@ -71,13 +71,12 @@ const Home: React.FC = () => {
 
         <div id="info" className="flex flex-col py-10">
           <span className="text-sm leading-none text-hello-gray font-fira_retina pb-4">
-            Senior Software Developer | 6+ Years of Experience 
+            Senior Software Developer | 6+ Years of Experience
             Leveraging an AI-integrated workflow to deliver scalable solutions with 10x efficiency. I am a dedicated problem-solver who excels at deconstructing complex technical challenges and translating them into elegant, high-impact code. By fusing deep architectural logic with cutting-edge AI tools, I push the limits of modern engineering to build software that lasts.
           </span>
           <span
-            className={`text-sm leading-none text-hello-gray font-fira_retina pb-4 whitespace-pre-line ${
-              isMobile ? "hidden" : ""
-            }`}
+            className={`text-sm leading-none text-hello-gray font-fira_retina pb-4 whitespace-pre-line ${isMobile ? "hidden" : ""
+              }`}
           >
             My Toolkit 🛠️ Frameworks : NestJS, NextJS, ExpressJS, ReactJS,
             Native Android, Flutter, Wordpress Database : Postgres, MySQL,
@@ -85,9 +84,8 @@ const Home: React.FC = () => {
             Java, PHP
           </span>
           <span
-            className={`text-sm leading-none text-hello-gray font-fira_retina pb-4 ${
-              !isMobile ? "hidden" : ""
-            }`}
+            className={`text-sm leading-none text-hello-gray font-fira_retina pb-4 ${!isMobile ? "hidden" : ""
+              }`}
           >
             // You can checkout my resume:
           </span>

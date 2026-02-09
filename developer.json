@@ -18,11 +18,11 @@
         "info": {
           "experience": {
             "title": "experience",
-            "description": "<br>Senior Software Developer | 6+ Years of Experience <br>Leveraging an AI-integrated workflow to deliver scalable solutions with 10x efficiency. I am a dedicated problem-solver who excels at deconstructing complex technical challenges and translating them into elegant, high-impact code. By fusing deep architectural logic with cutting-edge AI tools, I push the limits of modern engineering to build software that lasts.<br><br><strong>Work Experience:</strong><br><br><strong>✅ Senior Software Engineer</strong> - WallMantra<br>Feb 2024 - Present<br>• Built the WallMantra website's backend and frontend<br>• Led and guided a team of developers<br>• Managed website deployments<br>• Performed technical SEO for the website<br><br><strong>✅ Software Engineer</strong> - AeoLogic Technologies<br>Oct 2021 - Jan 2024<br>• Built and launched popular mobile and web apps, created essential APIs<br>• Provided technical guidance and mentored junior developers<br><br><strong>✅ Junior Flutter Developer</strong> - Calibre Websol Pvt. Ltd.<br>Jan 2021 - Oct 2021<br>• Worked on various projects independently and maintained a complete life cycle of Apps<br>• Primary roles were to create applications from scratch and maintain and add features to previously developed applications<br><br><strong>✅ Flutter Developer Intern</strong> - Euracle<br>Jul 2020 - Dec 2020<br>• Developed mindfulness app from scratch<br>• Published the app on Playstore and Appstore"
+            "description": "<br>Senior Software Developer | 6+ Years of Experience <br>Leveraging an AI-integrated workflow to deliver scalable solutions with 10x efficiency. I am a dedicated problem-solver who excels at deconstructing complex technical challenges and translating them into elegant, high-impact code. By fusing deep architectural logic with cutting-edge AI tools, I push the limits of modern engineering to build software that lasts.<br><br><strong>Work Experience:</strong><br><br><strong>✅ Senior Software Engineer</strong> - WallMantra<br>Feb 2024 - Present<br>• Orchestrated the end-to-end development of the complete e-commerce ecosystem—including the Website, Mobile App, Backend, and a custom CMS—leading a team of 5 developers.<br>• Architected a scalable full-stack infrastructure using NestJS and NextJS, ensuring high availability and seamless performance for 150K+ monthly active users.<br>• Engineered a custom Content Management System (CMS) to streamline internal operations, enabling efficient inventory and content updates for the business team.<br>• Optimized Technical SEO and Core Web Vitals, directly contributing to organic traffic growth and improved search rankings.<br>• Managed CI/CD pipelines and deployments, ensuring zero-downtime releases and robust API performance across all platforms.<br><br><strong>✅ Software Engineer</strong> - AeoLogic Technologies<br>Oct 2021 - Jan 2024<br>• Developed full-stack solutions using Flutter, ReactJS, and Node.js, delivering robust mobile and web apps for client production environments.<br>• Optimized backend performance by designing efficient APIs and database schemas, resulting in faster load times for end-users.<br>• Provided technical mentorship, guiding junior engineers through complex debugging sessions and code optimization strategies.<br><br><strong>✅ Junior Flutter Developer</strong> - Calibre Websol Pvt. Ltd.<br>Jan 2021 - Oct 2021<br>• Worked on various projects independently and maintained a complete life cycle of Apps<br>• Primary roles were to create applications from scratch and maintain and add features to previously developed applications<br><br><strong>✅ Flutter Developer Intern</strong> - Euracle<br>Jul 2020 - Dec 2020<br>• Developed mindfulness app from scratch<br>• Published the app on Playstore and Appstore"
           },
           "hard-skills": {
             "title": "hard-skills",
-            "description": "<br><strong>Frameworks & Libraries:</strong> NestJS, NextJS, ExpressJS, ReactJS, Native Android, Flutter, WordPress <br><br> <strong>Databases:</strong> PostgreSQL, MySQL, MongoDB, Cloud Firestore <br><br> <strong>Programming Languages:</strong> TypeScript, JavaScript, Dart, Java, PHP <br><br> <strong>Development:</strong> Full-Stack Development, Mobile App Development, RESTful APIs, Microservices <br><br> <strong>Tools & Technologies:</strong> Git, Docker, Cloud Services, Agile Development"
+            "description": "<br><strong>Frameworks & Libraries:</strong> NestJS, NextJS, ExpressJS, ReactJS, Native Android, Flutter, WordPress, Payload CMS <br><br> <strong>Databases:</strong> PostgreSQL, MySQL, MongoDB, Cloud Firestore, Redis, ElasticSearch, Meilisearch <br><br> <strong>Programming Languages:</strong> TypeScript, JavaScript, Dart, Java, PHP <br><br> <strong>Development:</strong> Full-Stack Development, Mobile App Development, RESTful APIs, Microservices <br><br> <strong>Tools & Technologies:</strong> Git, Docker, Cloud Services, Agile Development"
           },
           "soft-skills": {
             "title": "soft-skills",
@@ -36,7 +36,7 @@
         "info": {
           "bio": {
             "title": "bio",
-            "description": "<br> About Me <br> I am a passionate software developer with 5+ years of experience who loves transforming complex problems into elegant solutions. My journey in tech is driven by an insatiable curiosity for new technologies and a commitment to pushing my skills to their limits. I believe in creating innovative applications that not only solve problems but also deliver exceptional user experiences."
+            "description": "<br> About Me <br> I am a passionate Senior Software Developer with 6+ Years of Experience who loves transforming complex problems into elegant solutions. My journey in tech is driven by an insatiable curiosity for new technologies and a commitment to pushing my skills to their limits. I believe in creating innovative applications that not only solve problems but also deliver exceptional user experiences."
           },
           "interests": {
             "title": "interests",
@@ -44,7 +44,7 @@
           },
           "education": {
             "title": "education",
-            "description": "<br>I hold a Bachelor's degree in Computer Science from Maharaja Surajmal Institute. My educational background has provided me with a strong foundation in computer science principles, software engineering practices, and modern development methodologies. Over my 5+ years of professional experience, I complement my formal education with continuous learning through hands-on projects and staying current with industry best practices."
+            "description": "<br>I hold a Bachelor's degree (BCA) in Computer Science from Maharaja Surajmal Institute (2021), achieving a Grade 10. My educational background has provided me with a strong foundation in computer science principles, software engineering practices, and modern development methodologies. Over my 6+ years of professional experience, I complement my formal education with continuous learning through hands-on projects and staying current with industry best practices."
           }
         }
       },
@@ -110,7 +110,7 @@
   "projects": {
     "1": {
       "title": "WallMantra",
-      "description": "Be it a wall painting, clock, shelf, wooden hanging, foldable table, or an arm-chair, WallMantra offers you an ideal combination of home decoratives and smart furniture.",
+      "description": "Architected a high-scale e-commerce platform supporting 150K+ monthly active users, maintaining 99.99% uptime during peak traffic events via Redis caching and optimized database indexing. Engineered a custom Headless CMS, reducing content deployment time by 90%.",
       "img": "/images/projects/wallmantra.png",
       "tech": [
         "next.js",
@@ -119,13 +119,16 @@
         "postgresSQL",
         "typeScript",
         "redis",
-        "elasticsearch"
+        "elasticsearch",
+        "payload-cms",
+        "react-native",
+        "meilisearch"
       ],
       "url": "https://wallmantra.com/"
     },
     "2": {
       "title": "ItsMyCostume",
-      "description": "Looking for Fancy Dress Costume Store Near You? Now you can Shop Costumes for Boys and Girls Online. Fast Shipping. Explore our website for Fancy Dress Ideas for Kids.",
+      "description": "Customized and optimized a high-traffic WooCommerce platform, implementing bespoke features and ensuring seamless performance for an online costume retailer.",
       "img": "/images/projects/itsmycostume.png",
       "tech": [
         "wordpress",
@@ -136,7 +139,7 @@
     },
     "3": {
       "title": "ThePetNest",
-      "description": "ThePetNest! Is the #1 app For Pet Parents — Offering 5 - Star Pet Grooming, Online Veterinary Consultation and Vet Home Visit service across india.",
+      "description": "Architected a scalable on-demand service platform using NestJS and microservices pattern, utilizing Redis for real-time scheduling and PostgreSQL for robust data management.",
       "img": "/images/projects/thepetnest.png",
       "tech": [
         "nest.js",
@@ -148,7 +151,7 @@
     },
     "4": {
       "title": "E-monitoring",
-      "description": "Delhi E-Monitoring is used by the officers of PWD to report and resolve complaints. The aim is to improve experiences for both the users and the organization.",
+      "description": "Developed an official government monitoring application for PWD, enabling real-time complaint tracking and resolution through a secure Node.js and MongoDB infrastructure.",
       "img": "/images/projects/pwd_monitoring.png",
       "tech": [
         "node.js",
@@ -159,20 +162,21 @@
     },
     "5": {
       "title": "Novio",
-      "description": "Get an assured RuPay SBM Credilio Credit Card with no credit score or income proof—just secure it against a fixed deposit!",
+      "description": "Engineered secure banking integrations, implementing complex SIM binding validation and device fingerprinting to prevent fraud. Architected an 'offline-first' mobile experience with local caching.",
       "img": "/images/projects/novio.png",
       "tech": [
         "flutter",
         "dart",
         "android",
         "java",
-        "xcode"
+        "xcode",
+        "native-platform-channels"
       ],
       "url": "https://play.google.com/store/apps/details?id=com.novio.customer&hl=en_IN"
     },
     "6": {
       "title": "Credilio Pro",
-      "description": "Credilio Pro App is a one-stop destination for your customer's personal finance needs, like Credit Cards, Personal Loans and Home Loans & LAP",
+      "description": "Built a secure, cross-platform financial advisory super-app using Flutter, integrating multiple financial products and implementing strict security protocols for sensitive data.",
       "img": "/images/projects/credilio.png",
       "tech": [
         "flutter",

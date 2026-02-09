@@ -24,10 +24,10 @@
 					Leveraging an AI-integrated workflow to deliver scalable solutions with 10x efficiency. I am a dedicated problem-solver who excels at deconstructing complex technical challenges and translating them into elegant, high-impact code. By fusing deep architectural logic with cutting-edge AI tools, I push the limits of modern engineering to build software that lasts.
 				</span>
 				<span class="whitespace-pre-line">
-Frameworks : NestJS, NextJS, ExpressJS, ReactJS, Native Android, Flutter, Wordpress
+Frameworks : NestJS, NextJS, ExpressJS, ReactJS, Native Android, Flutter, Wordpress, Payload CMS
 				</span>
         <span class="whitespace-pre-line">
-          Database : Postgres, MySQL, MongoDB, Cloud Firestore, Redis, ElasticSearch
+          Database : Postgres, MySQL, MongoDB, Cloud Firestore, Redis, ElasticSearch, Meliesearch
 				</span>
         <span class="whitespace-pre-line">
           Languages : Typescript, Javascript, Dart, Java, PHP
@@ -49,7 +49,7 @@ Frameworks : NestJS, NextJS, ExpressJS, ReactJS, Native Android, Flutter, Wordpr
 			</div>
 		</section>
 
-		<section data-aos="fade-up" class="game" v-if="!isMobile">
+		<section data-aos="fade-up" class="game ml-[10px]" v-if="!isMobile">
 			<SnakeGame />
 		</section>
 
